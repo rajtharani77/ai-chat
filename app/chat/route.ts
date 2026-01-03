@@ -2,7 +2,7 @@ import { google } from '@ai-sdk/google';
 import { streamText } from 'ai';
 import { prisma } from '@/lib/prisma';
 import { getServerSession } from "next-auth";
-import { authOptions } from "../../../lib/authOptions";
+import { authOptions } from "./../../lib/authOptions";
 
 export const maxDuration = 30;
 
